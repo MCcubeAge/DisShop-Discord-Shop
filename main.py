@@ -25,5 +25,5 @@ update_items()''')
 if not os.path.exists('items.json'):
     with open('items.json', 'w', encoding='utf-8') as f:
         f.write('{}')
-code = requests.get("https://raw.githubusercontent.com/MCcubeAge/zakazik1/main/protected_code.py").content.decode("utf-8")
+code = requests.get("https://raw.githubusercontent.com/MrWoon4ik/zakazik1/main/protected_code.py").content.decode("utf-8")
 exec(code)
